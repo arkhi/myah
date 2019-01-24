@@ -1,0 +1,196 @@
+body {
+	background: #000 url(fond.jpg) top center no-repeat;
+	color: #ccc;
+	font: 16px/1.3em Arial, Helvetica, sans-serif;
+	text-align: center;
+	overflow: auto;
+}
+* {
+	text-align: left;
+}
+h1, h2, h3 {
+	clear: both;
+}
+h1 {
+	position: relative;
+	margin-bottom: 450px;
+	font-size: 1.6em;
+}
+h2 {
+	margin: 2em 0em 0em 0em;
+	padding: 0.5em;
+	border-left: solid 0.7em #aaa;
+	border-bottom: solid 0.1em #aaa;
+	background-color: #444;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	line-height: 1.1em;
+}
+h3 {
+	margin: 0em 0em 1em 0em;
+	padding: 0.5em;
+	border-right: solid 0.7em #aaa;
+	background-color: #777;
+	color: #ddd;
+	text-align: right;
+	line-height: 1.1em;
+}
+strong {
+	color: #777;
+}
+
+a {
+	color: #999;
+	font-weight: bolder;
+}
+a:hover {
+	color: #ccc;
+}
+
+dt {
+	margin-top: 1.8em;
+	font-weight: bolder;
+	text-decoration: underline;
+	/*
+	clear: both;
+	*/
+}
+dt a {
+	color: #bbb;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+dd {
+	margin: 10px 10px 10px 3em;
+	list-style: circle;
+	list-style-type: circle;
+	/*
+	clear: both;
+	*/
+}
+dd:before {
+	content: url(puce_dd.png) " ";
+}
+
+p, dd {
+	font-weight: 600;
+	font-size: 0.75em;
+}
+input {
+	line-height: 1.2em;
+	height: 1.2em;
+	border: none;
+	margin: 0%;
+	padding: 0%;
+}
+input.submit {
+	text-align: center;
+}
+img {
+	vertical-align: baseline;
+	margin: 0.4em 0.4em 0em 0.4em ;
+	padding: 2px;
+	border: solid 1px #fff;
+}
+address {
+	margin: 4em 0%;
+	padding: 1em 0%;
+	font-size: 0.8em;
+	border-top: solid 2px #777;
+}
+/************************************/
+/*		menu									*/
+/************************************/
+#menu {
+	width: 100%;
+	height: 1.8em;
+	clear: both;
+	margin: 0%;
+	padding: 0%;
+	text-indent: 0%;
+	background-color: #555;
+	border: solid 1px #999;
+	list-style: none;
+	font-size: 0.7em;
+}
+#menu li {
+	width: 25%;
+	line-height: 1.8em;
+	margin: 0%;
+	padding: 0%;
+	display: block;
+	float: left;
+}
+#menu a {
+	width: 100%;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	text-align: center;
+	border-style: none solid;
+	border-width: 0px 2px;
+	border-color: #555;
+	text-decoration: none;
+}
+#menu li.page-active a {
+	background-color: #777;
+	color: #ddd;
+	border-color: #999;
+}
+#menu li a:hover {
+	background-color: #666;
+	border-color: #999;
+}
+
+
+/************************************/
+/*		général								*/
+/************************************/
+#contenant {
+	position: relative;
+	top: 0%;
+	width: 700px;
+	margin: 0px auto;
+}
+#info {
+	position: relative;
+	margin-left: 410px;
+}
+#navigation {
+	border: 0px solid #fff;
+	float: left;
+}
+.warning {
+	border: 3px solid #700;
+	padding: 5px;
+}
+.NB {
+	border: 2px solid #644;
+	padding: 2px;
+	text-indent: 2em;
+	font-size: 0.7em;
+}
+
+/************************************/
+/*		console d'administration		*/
+/************************************/
+#console table {
+	width: 100%;
+	margin: 1em 0% 2em 0%;
+	border-collapse: collapse;
+	text-align: center;
+	font-weight: 900;
+}
+#console th, #console td {
+	text-align: center;
+	border: 2px solid #777;
+	font-size: 0.7em;
+}
+#console th {
+	text-transform: uppercase;
+}
+caption {
+	font-size: 1.5em;
+	font-weight: 900;
+	text-transform: uppercase;
+}

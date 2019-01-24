@@ -1,0 +1,4 @@
+PerlSetVar AuthFile frontier/.doNotCross
+AuthName "authentification necessaire"
+AuthType Basic
+require user Bam!
